@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+ @font-face{
+    font-family: 'MilkyCoffee';
+    src: url('MilkyCoffee.eot');
+    src: url('MilkyCoffee.eot?#iefix') format('embedded-opentype'),
+    url('MilkyCoffee.woff') format('woff'),
+    url('MilkyCoffee.ttf') format('truetype'),
+    url('MilkyCoffee.svg#webfont') format('svg');
+            }
+
 body {
     background-color: #FAF6F0;
     }
