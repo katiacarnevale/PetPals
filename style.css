@@ -53,8 +53,11 @@ body {font-family: Milky Coffee}
 .PetPeople
 {
     font-family: Milky Coffee;
-    font-size: 80px;
+    font-size: 60px;
+    text-align: center;
+    color: #6C594D ;
 }
+
 
 
 @media screen and (max-width: 500px) {
