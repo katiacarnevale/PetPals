@@ -16,19 +16,24 @@ body {font-family: Milky Coffee}
 .navbar {
   width: 100%;
   overflow: auto;
+  justify-content: center;
+
 }
 
 .navbar a {
   float: left;
-  padding: 70px;
+  padding: 50px;
   color: #A98467;
   text-decoration: none;
   font-size: 50px;
+  margin-top: 30px;
+
 }
 
 .navbar a:hover {
   color: #EF3E43;
 }
+
 
   
 
@@ -67,19 +72,19 @@ body {font-family: Milky Coffee}
 .PetPeople
 {
     font-family: Milky Coffee;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     color: #6C594D ;
 }
 
-.FindSitter {
+.FindSitter a {
     font-size: 60px;
     color: #FFFFFF;
     border-radius: 40px;
     background: #67897B;
     padding: 10px; 
     width: 450px;
-    height: 50px; 
+    height: 80px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,10 +92,9 @@ body {font-family: Milky Coffee}
 }
 
 
-.FindSitter:hover {
-    color: #EF3E43;
+.FindSitter a:hover {
+    color: #A6BFA3;
   }
-
 
 
 
