@@ -30,6 +30,32 @@ body {font-family: Milky Coffee}
   color: #EF3E43;
 }
 
+.HomeContent {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .Img-Left { grid-area: 1 / 1 / 4 / 2; }
+  
+  .Img-Center { grid-area: 1 / 2 / 4 / 3; }
+  
+  .Img-Right { grid-area: 1 / 3 / 4 / 4; }
+  
+  .FindSitter { grid-area: 4 / 1 / 5 / 4; }
+  
+  .PetPeople { grid-area: 1 / 1 / 2 / 4; }
+  
+  .Home { grid-area: 1 / 1 / 2 / 2; }
+
+.PetPeople
+{
+    font-family: Milky Coffee;
+    font-size: 80px;
+}
+
 
 @media screen and (max-width: 500px) {
   .navbar a {
