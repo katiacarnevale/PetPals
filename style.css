@@ -30,6 +30,8 @@ body {font-family: Milky Coffee}
   color: #EF3E43;
 }
 
+  
+
 .HomeContent {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -50,6 +52,18 @@ body {font-family: Milky Coffee}
   
   .Home { grid-area: 1 / 1 / 2 / 2; }
 
+.Img-Left {
+    margin: 0 auto;
+}
+
+.Img-Center {
+    margin: 0 auto;
+}
+
+.Img-Right {
+    margin: 0 auto;
+}
+
 .PetPeople
 {
     font-family: Milky Coffee;
@@ -57,6 +71,26 @@ body {font-family: Milky Coffee}
     text-align: center;
     color: #6C594D ;
 }
+
+.FindSitter {
+    font-size: 60px;
+    color: #FFFFFF;
+    border-radius: 40px;
+    background: #67897B;
+    padding: 10px; 
+    width: 450px;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.FindSitter:hover {
+    color: #EF3E43;
+  }
+
 
 
 
