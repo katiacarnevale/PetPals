@@ -146,6 +146,7 @@ body {font-family: 'Milky Coffee', sans-serif}
 
   .Paw1 {
     margin-top: -200px;
+    margin-left: 300px ;
   }
 
   .Q1 h2 {
@@ -162,12 +163,14 @@ body {font-family: 'Milky Coffee', sans-serif}
 
   .Paw2 {
     margin-top: -150px;
+    margin-left: 150px;
   }
 
   .Q2 h3 {
     font-size: 70px;
     color: #A6BFA3;
-    margin-top: -100px;
+    margin-top: -30px;
+    margin-left: -150px;
   }
 
   .Q2 p {
@@ -178,12 +181,13 @@ body {font-family: 'Milky Coffee', sans-serif}
 
   .Paw3 {
     margin-top: -100px;
+    margin-left: 300px ;
   }
 
   .Q3 h4 {
     font-size: 70px;
     color: #A6BFA3;
-    margin-top: -100px;
+    margin-top: -20px;
   }
 
   .Q3 p {
