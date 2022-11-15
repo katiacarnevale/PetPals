@@ -89,6 +89,7 @@ body {font-family: Milky Coffee}
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: -100px;
 }
 
 
@@ -98,8 +99,10 @@ body {font-family: Milky Coffee}
 
 
 
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
+
+/*design for smartphones*/
+@media (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
   }
 }
