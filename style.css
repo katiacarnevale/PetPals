@@ -214,6 +214,15 @@ body {font-family: 'Milky Coffee', sans-serif}
     color: #000000;
   }
 
+  .Submit {
+    font-size: 80px;
+    color: #EF3E43;
+  }
+
+  .Submit a:hover {
+    color: #A6BFA3;
+  }
+
 
 
 
