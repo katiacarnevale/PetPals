@@ -1,11 +1,8 @@
- @font-face{
-    font-family: 'MilkyCoffee';
-    src: url('MilkyCoffee.eot');
-    src: url('MilkyCoffee.eot?#iefix') format('embedded-opentype'),
-    url('webfontkit-20221110-121937/MilkyCoffee.woff') format('woff'),
-    url('webfontkit-20221110-121937/MilkyCoffee.ttf') format('truetype'),
-    url('webfontkit-20221110-121937/MilkyCoffee.svg#webfont') format('svg');
-            }
+
+  @font-face {
+    font-family: MilkyCoffee;
+    src: url(MilkyCoffee.tff);
+  }
 
 body {
     background-color: #FAF6F0;
