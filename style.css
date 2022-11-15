@@ -1,15 +1,17 @@
+@import url(/PetPals/milky_coffee/MilkyCoffee.ttf);
 
-  @font-face {
+
+/*  @font-face {
     font-family: MilkyCoffee;
     src: url(MilkyCoffee.tff);
     src: url(MilkyCoffee.otf);
-  }
+  } */
 
 body {
     background-color: #FAF6F0;
     }
 
-body {font-family: Milky Coffee}
+body {font-family: 'Milky Coffee', sans-serif}
 
 .navbar {
   width: 100%;
