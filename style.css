@@ -126,6 +126,11 @@ body {font-family: 'Milky Coffee', sans-serif}
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    
+  }
+
+  .footertext p:hover {
+    color: #67897B;
   }
   
   .LetsFind { grid-area: LetsFind; }
