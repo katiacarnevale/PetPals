@@ -2,6 +2,7 @@
   @font-face {
     font-family: MilkyCoffee;
     src: url(MilkyCoffee.tff);
+    src: url(MilkyCoffee.otf);
   }
 
 body {
