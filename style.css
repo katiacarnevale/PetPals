@@ -1,4 +1,4 @@
-@import url(/PetPals/milky_coffee/MilkyCoffee.ttf);
+@import url(PetPals/milky_coffee/MilkyCoffee.ttf);
 
 /*  @font-face {
     font-family: MilkyCoffee;
@@ -111,6 +111,8 @@ body {font-family: 'Milky Coffee', sans-serif}
       "Paw3 Q3 Answer3"
       "Space Space Submit";
   }
+
+
 
   .footertext h1 {
     color: #A6BFA3;
