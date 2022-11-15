@@ -6,13 +6,15 @@
     src: url(MilkyCoffee.otf);
   } */
 
-  
+
 
 body {
-    background-color: #FAF6F0;
-    }
+  background-color: #FAF6F0;
+}
 
-body {font-family: 'Milky Coffee', sans-serif}
+body {
+  font-family: 'Milky Coffee', sans-serif
+}
 
 .navbar {
   width: 100%;
@@ -35,218 +37,300 @@ body {font-family: 'Milky Coffee', sans-serif}
   color: #EF3E43;
 }
 
-  
 
-.HomeContent {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-  }
-  
-  .Img-Left { grid-area: 1 / 1 / 4 / 2; }
-  
-  .Img-Center { grid-area: 1 / 2 / 4 / 3; }
-  
-  .Img-Right { grid-area: 1 / 3 / 4 / 4; }
-  
-  .FindSitter { grid-area: 4 / 1 / 5 / 4; }
-  
-  .PetPeople { grid-area: 1 / 1 / 2 / 4; }
-  
-  .Home { grid-area: 1 / 1 / 2 / 2; }
+
+.HomeContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  width: 100vw;
+  overflow: hidden;
+}
 
 .Img-Left {
-    margin: 0 auto;
+  grid-area: 1 / 1 / 4 / 2;
+  margin: 0 auto;
 }
 
 .Img-Center {
-    margin: 0 auto;
+  grid-area: 1 / 2 / 4 / 3;
+  margin: 0 auto;
+  
+}
+
+  .Img-Center img {
+    width: 750px;
+  }
+
+.Img-Right {
+  grid-area: 1 / 3 / 4 / 4;
+  margin: 0 auto;
+}
+
+.FindSitter {
+  grid-area: 4 / 1 / 5 / 4;
+}
+
+.PetPeople {
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+.Home {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+
+/*.Img-Left {
+  margin: 0 auto;
+}
+
+.Img-Center {
+  margin: 0 auto;
 }
 
 .Img-Right {
-    margin: 0 auto;
-}
+  margin: 0 auto;
+} */
 
-.PetPeople
-{
-    font-family: Milky Coffee;
-    font-size: 80px;
-    text-align: center;
-    color: #6C594D ;
+
+.PetPeople {
+  font-family: Milky Coffee;
+  font-size: 80px;
+  text-align: center;
+  color: #6C594D;
+  z-index: 100;
 }
 
 .FindSitter a {
-    font-size: 60px;
-    color: #FFFFFF;
-    border-radius: 40px;
-    background: #67897B;
-    padding: 10px; 
-    width: 450px;
-    height: 80px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: -130px;
+  font-size: 60px;
+  color: #FFFFFF;
+  border-radius: 40px;
+  background: #67897B;
+  padding: 10px;
+  width: 450px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: -130px;
+}
+
+@media (max-width: 800px) {
+
+.Img-Left, .Img-Right {
+  display: none;
+}
+
+.Img-Center img {
+  width: 100vw;
+  height: auto;
+}
+
+.PetPeople {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PetPeople, h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
 }
 
 
 .FindSitter a:hover {
-    color: #A6BFA3;
-  }
+  color: #A6BFA3;
+}
 
 
-  .FindaSitterpg {  display: grid;
-    grid-template-columns: 1fr 1.5fr 1.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "LetsFind LetsFind LetsFind"
-      "Paw1 Q1 Answer1"
-      "Paw2 Q2 Answer2"
-      "Paw3 Q3 Answer3"
-      "Space Space Submit";
-  }
-
-
-
-  .footertext h1 {
-    color: #A6BFA3;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
-  .footertext p {
-    color: #A6BFA3;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    
-  }
-
-  .footertext p:hover {
-    color: #67897B;
-  }
-  
-  .LetsFind { grid-area: LetsFind; }
-  
-  .Paw1 { grid-area: Paw1; }
-  
-  .Paw2 { grid-area: Paw2; }
-  
-  .Paw3 { grid-area: Paw3; }
-  
-  .Submit { grid-area: Submit; }
-  
-  .Q1 { grid-area: Q1; }
-  
-  .Q2 { grid-area: Q2; }
-  
-  .Q3 { grid-area: Q3; }
-  
-  .Answer1 { grid-area: Answer1; }
-  
-  .Answer2 { grid-area: Answer2; }
-  
-  .Answer3 { grid-area: Answer3; }
-  
-  .Space { grid-area: Space; }
-
-  .LetsFind {
-    font-size: 40px;
-    color:#6C594D;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: -300px;
-  }
-
-  .Paw1 {
-    margin-top: -200px;
-    margin-left: 300px ;
-  }
-
-  .Q1 h2 {
-    font-size: 70px;
-    color: #A6BFA3;
-    margin-top: -100px;
-  }
-
-  .Q1 p {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    font-family: poppins, sans-serif;
-font-style: normal;
-font-weight: 100;
-  }
-
-  .Paw2 {
-    margin-top: -150px;
-    margin-left: 150px;
-  }
-
-  .Q2 h3 {
-    font-size: 70px;
-    color: #A6BFA3;
-    margin-top: -30px;
-    margin-left: -150px;
-  }
-
-  .Q2 p {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    font-family: poppins, sans-serif;
-font-style: normal;
-font-weight: 100;
-  }
-
-  .Paw3 {
-    margin-top: -100px;
-    margin-left: 300px ;
-  }
-
-  .Q3 h4 {
-    font-size: 70px;
-    color: #A6BFA3;
-    margin-top: -20px;
-  }
-
-  .Q3 p {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    
-  }
-
-  .Submit {
-    font-size: 80px;
-    color: #EF3E43;
-  }
-
-  .Submit h3:hover {
-    color: #A6BFA3;
-  }
+.FindaSitterpg {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "LetsFind LetsFind LetsFind"
+    "Paw1 Q1 Answer1"
+    "Paw2 Q2 Answer2"
+    "Paw3 Q3 Answer3"
+    "Space Space Submit";
+}
 
 
 
+.footertext h1 {
+  color: #A6BFA3;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 
- 
+.footertext p {
+  color: #A6BFA3;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.footertext p:hover {
+  color: #67897B;
+}
+
+.LetsFind {
+  grid-area: LetsFind;
+}
+
+.Paw1 {
+  grid-area: Paw1;
+}
+
+.Paw2 {
+  grid-area: Paw2;
+}
+
+.Paw3 {
+  grid-area: Paw3;
+}
+
+.Submit {
+  grid-area: Submit;
+}
+
+.Q1 {
+  grid-area: Q1;
+}
+
+.Q2 {
+  grid-area: Q2;
+}
+
+.Q3 {
+  grid-area: Q3;
+}
+
+.Answer1 {
+  grid-area: Answer1;
+}
+
+.Answer2 {
+  grid-area: Answer2;
+}
+
+.Answer3 {
+  grid-area: Answer3;
+}
+
+.Space {
+  grid-area: Space;
+}
+
+.LetsFind {
+  font-size: 40px;
+  color: #6C594D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -300px;
+}
+
+.Paw1 {
+  margin-top: -200px;
+  margin-left: 300px;
+}
+
+.Q1 h2 {
+  font-size: 70px;
+  color: #A6BFA3;
+  margin-top: -100px;
+}
+
+.Q1 p {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.Paw2 {
+  margin-top: -150px;
+  margin-left: 150px;
+}
+
+.Q2 h3 {
+  font-size: 70px;
+  color: #A6BFA3;
+  margin-top: -30px;
+  margin-left: -150px;
+}
+
+.Q2 p {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.Paw3 {
+  margin-top: -100px;
+  margin-left: 300px;
+}
+
+.Q3 h4 {
+  font-size: 70px;
+  color: #A6BFA3;
+  margin-top: -20px;
+}
+
+.Q3 p {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+
+}
+
+.Submit {
+  font-size: 80px;
+  color: #EF3E43;
+}
+
+.Submit h3:hover {
+  color: #A6BFA3;
+}
+
+
+
+
+
 
 /*design for smartphones*/
 @media (max-width: 700px) {
-  .row, .navbar {   
+
+  .row,
+  .navbar {
     flex-direction: column;
   }
 }
