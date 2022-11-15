@@ -87,7 +87,7 @@ body {font-family: 'Milky Coffee', sans-serif}
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-bottom: -150px;
+    margin-bottom: -130px;
 }
 
 
@@ -110,8 +110,22 @@ body {font-family: 'Milky Coffee', sans-serif}
       "Space Space Submit";
   }
 
-  .footertext {
+  .footertext h1 {
     color: #A6BFA3;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .footertext p {
+    color: #A6BFA3;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
   }
   
   .LetsFind { grid-area: LetsFind; }
