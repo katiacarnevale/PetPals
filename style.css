@@ -1,19 +1,9 @@
 @font-face {
   font-family: 'milky_coffeeregular';
-  src: url('/FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff2') format('woff2'),
-       url('/FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff') format('woff');
+  src: url('.FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff2') format('woff2'),
+       url('.FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'milky_coffeeregular';
-  src: url('/FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff2') format('woff2'),
-       url('FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
 }
 
 body {
