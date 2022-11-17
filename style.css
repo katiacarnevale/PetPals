@@ -2,8 +2,8 @@
  
 @font-face {
   font-family: 'milky_coffeeregular';
-  src: url('/FONTS/webfontkit-20221110-121937/milkcoffee-gx1yr-webfont.woff') format('woff'),
-       url('/FONTS/webfontkit-20221110-121937/milkcoffee-gx1yr-webfont.woff') format('woff2');
+  src: url('/FONTS/milky coffee kit/milkycoffee-gx1yr-webfont.woff') format('woff'),
+       url('/FONTS/milky coffee kit/milkycoffee-gx1yr-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
