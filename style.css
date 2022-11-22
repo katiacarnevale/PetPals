@@ -6,6 +6,8 @@
   font-style: normal;
 }
 
+/* LANDING PAGE */
+
 body {
   background-color: #FAF6F0;
 }
@@ -14,6 +16,7 @@ body {
   font-family: 'milky_coffeeregular', sans-serif
 }
 
+/* LANDING PAGE */
 .navbar {
   width: 100%;
   overflow: auto;
@@ -34,41 +37,6 @@ body {
 .navbar a:hover {
   color: #EF3E43;
 }
-
-.dropdown {
-  display: none
-}
-
-.dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
 
 
 .HomeContent {
@@ -123,7 +91,7 @@ body {
   z-index: 100;
 }
 
-.findsitter a {
+.findbutton a {
   font-size: 60px;
   color: #FFFFFF;
   border-radius: 40px;
@@ -136,8 +104,44 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-bottom: -130px;
+  text-align: center;
+  text-decoration: none;
 }
 
+.findbutton a:hover{
+  color:  #A6BFA3;
+}
+
+.pawfooter {
+  width:500px;
+}
+
+.footertext h1 {
+  color: #A6BFA3;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.footertext h1:hover {
+  color: #67897B;
+}
+
+.footertext p {
+  color: #A6BFA3;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+
+/* LANDING PAGE MEDIA */
 @media (max-width: 800px) {
 
   .dropdown {
@@ -176,18 +180,12 @@ body {
   align-items: center;
 }
 
-
-
-
-
-}
-
-
 .FindSitter a:hover {
   color: #A6BFA3;
 }
+}
 
-
+/* FIND A SITTER PAGE */
 .FindaSitterpg {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1.5fr;
@@ -203,30 +201,6 @@ body {
     "Space Space Submit";
 }
 
-
-
-.footertext h1 {
-  color: #A6BFA3;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.footertext p {
-  color: #A6BFA3;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-
-}
-
-.footertext p:hover {
-  color: #67897B;
-}
 
 .LetsFind {
   grid-area: LetsFind;
@@ -353,17 +327,9 @@ body {
 .Submit h3:hover {
   color: #A6BFA3;
 }
+/* FIND A SITTER MEDIA */
 
-
-
-
-
-
-/*design for smartphones*/
-@media (max-width: 700px) {
-
-  .row,
-  .navbar {
-    flex-direction: column;
-  }
-}
+/* MEET OUR SITTERS PAGE */
+/* MEET OUR SITTERS MEDIA */
+/* BECOME A SITTER PAGE */
+/* BECOME A SITTER MEDIA */
