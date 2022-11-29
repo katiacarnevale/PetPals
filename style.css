@@ -409,6 +409,8 @@ body {
 
 .PawBecome1 {
   grid-area: PawBecome1;
+  opacity: 20%;
+  transform: rotate(-20deg);
 }
 
 .Form {
@@ -417,6 +419,8 @@ body {
 
 .PawBecome2 {
   grid-area: PawBecome2;
+  opacity: 20%;
+  transform: rotate(20deg);
 }
 
 
