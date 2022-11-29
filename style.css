@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'milky_coffeeregular';
   src: url('./FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff2') format('woff2'),
-       url('./FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff') format('woff');
+    url('./FONTS/webfontkit-20221117-113137/milky_coffee-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -110,8 +110,8 @@ body {
   text-decoration: none;
 }
 
-.findbutton a:hover{
-  color:  #A6BFA3;
+.findbutton a:hover {
+  color: #A6BFA3;
 }
 
 
@@ -128,7 +128,7 @@ body {
 
 .footertext h1:hover {
   color: #67897B;
-  
+
 }
 
 .footertext p {
@@ -147,11 +147,11 @@ body {
 @media (max-width: 800px) {
 
   .dropdown {
-    display:contents;
+    display: contents;
   }
 
   .navbar a {
-    
+
     padding: 0px;
     color: #A98467;
     text-decoration: none;
@@ -160,31 +160,33 @@ body {
   }
 
 
-.Img-Left, .Img-Right {
-  display: none;
-}
+  .Img-Left,
+  .Img-Right {
+    display: none;
+  }
 
-.Img-Center img {
-  width: 100vw;
-  height: auto;
-}
+  .Img-Center img {
+    width: 100vw;
+    height: auto;
+  }
 
-.PetPeople {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .PetPeople {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.PetPeople, h1 {
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .PetPeople,
+  h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.FindSitter a:hover {
-  color: #A6BFA3;
-}
+  .FindSitter a:hover {
+    color: #A6BFA3;
+  }
 }
 
 /* FIND A SITTER PAGE */
@@ -260,7 +262,7 @@ body {
   justify-content: center;
   margin-top: 0px;
   padding-bottom: 20px;
- 
+
 }
 
 .Paw1 {
@@ -283,7 +285,7 @@ body {
   font-weight: 50;
 }
 
-.Answer1 input[type=text]{
+.Answer1 input[type=text] {
   width: 500px;
   height: 75px;
   border-radius: 15px;
@@ -292,12 +294,12 @@ body {
   text-align: left;
   padding-left: 15px;
 }
- 
+
 .Answer1 {
-    float: center;
-    margin: 7px;
+  float: center;
+  margin: 7px;
 }
- 
+
 
 .Paw2 {
   margin-top: -75px;
@@ -346,6 +348,7 @@ body {
 .Submit h3:hover {
   color: #A6BFA3;
 }
+
 /* FIND A SITTER MEDIA */
 
 /* MEET OUR SITTERS PAGE */
@@ -355,17 +358,66 @@ body {
 /* BECOME A SITTER PAGE */
 
 .headerbecome {
-text-align: center;
-font-size: 40px;
-color: #6C594D;
+  text-align: center;
+  font-size: 30px;
+  color: #6C594D;
+  margin-top: 45px;
 }
 
 .subbecome {
   text-align: center;
   font-size: 7px;
-  color:#6C594D;
+  color: #6C594D;
   opacity: 50%;
   font-family: 'Roboto', sans-serif;
 }
+
+.fillform {
+  text-align: center;
+  font-size: 30px;
+  color: #67897B;
+  margin-top: -30px;
+
+}
+
+.FormA1 input[type=text] {
+  width: 500px;
+  height: 75px;
+  border-radius: 15px;
+  border: none;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.FormA1 {
+  float: center;
+  margin: 7px;
+}
+
+.BecomeaSitterpg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  width: 100vw;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "PawBecome1 Form Form PawBecome2";
+}
+
+.PawBecome1 {
+  grid-area: PawBecome1;
+}
+
+.Form {
+  grid-area: Form;
+}
+
+.PawBecome2 {
+  grid-area: PawBecome2;
+}
+
 
 /* BECOME A SITTER MEDIA */
