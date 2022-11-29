@@ -23,17 +23,17 @@ body {
 }
 
 .navbar {
-  width: 100%;
   overflow: auto;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .navbar a {
-  float: left;
   padding: 25px;
   color: #A98467;
   text-decoration: none;
-  font-size: 20px;
-  margin-top: -25px;
+  font-size: 15px;
 }
 
 .navbar a:hover {
@@ -275,7 +275,7 @@ body {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
-  font-family: 
+  font-family: Playfair;
   font-style: normal;
   font-weight: 50;
 }
@@ -331,5 +331,8 @@ body {
 
 /* MEET OUR SITTERS PAGE */
 /* MEET OUR SITTERS MEDIA */
+
+
 /* BECOME A SITTER PAGE */
+
 /* BECOME A SITTER MEDIA */
