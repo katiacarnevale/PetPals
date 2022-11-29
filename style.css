@@ -285,6 +285,22 @@ body {
   font-weight: 50;
 }
 
+.Answer1 input[type=text]{
+  width: 500px;
+  height: 75px;
+  border-radius: 15px;
+  border: none;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 15px;
+}
+ 
+.Answer1 {
+    float: center;
+    margin: 7px;
+}
+ 
+
 .Paw2 {
   margin-top: -75px;
   margin-left: 75px;
