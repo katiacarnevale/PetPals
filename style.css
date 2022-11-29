@@ -6,6 +6,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /* LANDING PAGE */
 
 body {
@@ -123,10 +125,12 @@ body {
   justify-content: center;
   margin: 0 auto;
   padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footertext h1:hover {
   color: #67897B;
+  
 }
 
 .footertext p {
@@ -136,7 +140,8 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 1px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -334,5 +339,19 @@ body {
 
 
 /* BECOME A SITTER PAGE */
+
+.headerbecome {
+text-align: center;
+font-size: 40px;
+color: #6C594D;
+}
+
+.subbecome {
+  text-align: center;
+  font-size: 7px;
+  color:#6C594D;
+  opacity: 50%;
+  font-family: 'Roboto', sans-serif;
+}
 
 /* BECOME A SITTER MEDIA */
