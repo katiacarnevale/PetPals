@@ -399,7 +399,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-auto-columns: 1fr;
+  grid-auto-columns: 1fr 1fr 1fr;
   width: 100vw;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -421,6 +421,8 @@ body {
   grid-area: PawBecome2;
   opacity: 20%;
   transform: rotate(20deg);
+  margin-right: -950px;
+  margin-top: -70px;
 }
 
 
