@@ -115,7 +115,7 @@ body {
 }
 
 
-.footertext h1 {
+.footertext1 h1 {
   color: #A6BFA3;
   font-size: 20px;
   display: flex;
@@ -126,12 +126,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.footertext h1:hover {
+.footertext1 h1:hover {
   color: #67897B;
-
 }
 
-.footertext p {
+.footertext1 p {
   color: #A6BFA3;
   font-size: 15px;
   display: flex;
@@ -140,6 +139,10 @@ body {
   margin: 0 auto;
   padding-top: 1px;
   font-family: 'Roboto', sans-serif;
+}
+
+.pawfooter {
+  opacity: 20%;
 }
 
 
