@@ -376,14 +376,20 @@ body {
   text-align: center;
   font-size: 30px;
   color: #67897B;
-  margin-top: -30px;
+  margin-top: 5px;
 }
 
+.FormQuestions {
+  margin-top: -30px;
+  margin-left: 30px;
+}
 
 .FormQ1 a{
 color: #A6BFA3;
 float: left;
 margin-top: 15px;
+align-items: center;
+margin-left: 30px;
 }
 
 .FormA1 input[type=text] {
@@ -391,9 +397,10 @@ margin-top: 15px;
   height: 50px;
   border-radius: 15px;
   border: none;
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
   padding-left: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .FormA1 {
@@ -405,17 +412,18 @@ margin-top: 15px;
   color: #A6BFA3;
   float: left;
   margin-top: 15px;
-  margin-left: 20px;
+ margin-left: 50px;
 }
 
 .FormA2 input[type=text] {
-  width: 200px;
+  width: 150px;
   height: 50px;
   border-radius: 15px;
   border: none;
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
   padding-left: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .FormA2 {
@@ -425,35 +433,45 @@ margin-top: 15px;
 
 .FormQ3 a{
   color: #A6BFA3;
+  float: left;
+  margin-top: 15px;
+  float:left;
+  margin-left: 30px;
   }
   
   .FormA3 input[type=text] {
-    width: 500px;
-    height: 75px;
+    width: 240px;
+    height: 50px;
     border-radius: 15px;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
     padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .FormA3 {
-    float: center;
+    float: left;
     margin: 7px;
   }
 
   .FormQ4 a{
     color: #A6BFA3;
-    }
+    float: left;
+    margin-top: 15px;
+    margin-left: -0px;
+      }
     
     .FormA4 input[type=text] {
-      width: 500px;
-      height: 75px;
+      width: 150px;
+      height: 50px;
       border-radius: 15px;
       border: none;
-      font-size: 24px;
+      font-size: 20px;
       text-align: left;
       padding-left: 15px;
+      margin-left: -50px;
+      font-family: 'Roboto', sans-serif;
     }
     
     .FormA4 {
@@ -461,23 +479,39 @@ margin-top: 15px;
       margin: 7px;
     }
 
-    .FormQ5 a{
+
+
+  .FormQ5 a{
       color: #A6BFA3;
+      float: left;
+      margin-top: 15px;
+      margin-left: 30px;
       }
       
       .FormA5 input[type=text] {
-        width: 500px;
+        width: 575px;
         height: 75px;
         border-radius: 15px;
         border: none;
-        font-size: 24px;
+        font-size: 20px;
         text-align: left;
         padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
       }
       
       .FormA5 {
-        float: center;
+        float: left;
         margin: 7px;
+        margin-left: 30px;
+      }
+
+      .Submit2 a{
+        color: #EF3E43;
+        text-decoration: none;
+      }
+
+      .Submit2 a:hover {
+        color: #A6BFA3;
       }
 
 .BecomeaSitterpg {
