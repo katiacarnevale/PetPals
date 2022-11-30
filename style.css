@@ -372,17 +372,23 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.fillform {
+.FormTitle {
   text-align: center;
   font-size: 30px;
   color: #67897B;
   margin-top: -30px;
+}
 
+
+.FormQ1 a{
+color: #A6BFA3;
+float: left;
+margin-top: 15px;
 }
 
 .FormA1 input[type=text] {
-  width: 500px;
-  height: 75px;
+  width: 200px;
+  height: 50px;
   border-radius: 15px;
   border: none;
   font-size: 24px;
@@ -391,9 +397,88 @@ body {
 }
 
 .FormA1 {
-  float: center;
+  float: left;
   margin: 7px;
 }
+
+.FormQ2 a{
+  color: #A6BFA3;
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.FormA2 input[type=text] {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.FormA2 {
+  float: left;
+  margin: 7px;
+}
+
+.FormQ3 a{
+  color: #A6BFA3;
+  }
+  
+  .FormA3 input[type=text] {
+    width: 500px;
+    height: 75px;
+    border-radius: 15px;
+    border: none;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  .FormA3 {
+    float: center;
+    margin: 7px;
+  }
+
+  .FormQ4 a{
+    color: #A6BFA3;
+    }
+    
+    .FormA4 input[type=text] {
+      width: 500px;
+      height: 75px;
+      border-radius: 15px;
+      border: none;
+      font-size: 24px;
+      text-align: left;
+      padding-left: 15px;
+    }
+    
+    .FormA4 {
+      float: center;
+      margin: 7px;
+    }
+
+    .FormQ5 a{
+      color: #A6BFA3;
+      }
+      
+      .FormA5 input[type=text] {
+        width: 500px;
+        height: 75px;
+        border-radius: 15px;
+        border: none;
+        font-size: 24px;
+        text-align: left;
+        padding-left: 15px;
+      }
+      
+      .FormA5 {
+        float: center;
+        margin: 7px;
+      }
 
 .BecomeaSitterpg {
   display: grid;
@@ -421,9 +506,9 @@ body {
   grid-area: PawBecome2;
   opacity: 20%;
   transform: rotate(20deg);
-  margin-right: -950px;
-  margin-top: -70px;
 }
+
+
 
 
 /* BECOME A SITTER MEDIA */
