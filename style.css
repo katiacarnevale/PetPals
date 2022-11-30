@@ -43,7 +43,6 @@ body {
 }
 
 
-
 .HomeContent {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -90,6 +89,7 @@ body {
   text-align: center;
   color: #6C594D;
   z-index: 100;
+  margin-top: -20px;
 }
 
 .findbutton a {
@@ -229,14 +229,13 @@ body {
 .Submit3 { grid-area: Submit; }
 
 
-
-.LetsFind {
-  font-size: 20px;
+.LetsFind h1{
+  font-size: 30px;
   color: #6C594D;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 0px;
+  margin-top: 45px;
   
 }
 
@@ -329,9 +328,23 @@ body {
   color: #A6BFA3;
 }
 
+
+
 /* FIND A SITTER MEDIA */
 
 /* MEET OUR SITTERS PAGE */
+
+.MeetSittersTitle a{
+  color:#6C594D;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+
+
 /* MEET OUR SITTERS MEDIA */
 
 
@@ -526,3 +539,6 @@ margin-left: 30px;
 
 
 /* BECOME A SITTER MEDIA */
+
+/* FormSubmit Page */
+
