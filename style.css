@@ -634,7 +634,7 @@ body {
   opacity: 20%;
 }
 
-/* MEET OUR SITTERS MEDIA */
+/* MEET OUR SITTERS PAGE */
 
 
 .MeetOurSitters {  display: grid;
@@ -686,6 +686,320 @@ body {
 .person10 { 
   grid-area: person10; 
 }
+
+/* MEET OUR SITTERS MEDIA*/
+.MeetSittersTitle a{
+  color:#6C594D;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+
+.person1text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.hide {
+  display: none;
+  text-align: center;
+}
+
+.person1text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person2text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person2text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person3text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person3text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person4text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person4text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person5text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person5text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person6 {
+  margin-top: 0px;
+}
+
+.person6text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person6text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person7 {
+  margin-top: 0px;
+}
+
+.person7text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person7text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person8 {
+  margin-top: 0px;
+}
+
+.person8text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person8text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person9 {
+  margin-top: 0px;
+}
+
+.person9text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person9text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person10 {
+  margin-top: 0px;
+}
+
+.person10text {
+  margin-top:-30px;
+  text-align: center;
+  color:#67897B;
+}
+
+.person10text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.pawfootermeet {
+  opacity: 20%;
+}
+
+/* MEET OUR SITTERS MEDIA */
+
+@media (max-width: 600px) {
+
+  .MeetSittersTitle a{
+    color:#6C594D;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .person1 {
+    width: 60vh;
+  }
+
+  .person1text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .hide {
+    display: none;
+    text-align: center;
+  }
+  
+  .person1text:hover + .hide {
+    display: block;
+    color: red;
+  }
+
+  .person2{
+    width: 60vh;
+  }
+  .person2text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .person2text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .person3text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .person3text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .person4text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .person4text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .person5text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .person5text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .person6 {
+    margin-top: 0px;
+  }
+  
+  .person6text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .person6text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .person7 {
+    margin-top: 0px;
+  }
+  
+  .person7text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .person7text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .person8 {
+    margin-top: 0px;
+  }
+  
+  .person8text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .person8text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .person9 {
+    margin-top: 0px;
+  }
+  
+  .person9text {
+    margin-top:-30px;
+    text-align: center;
+    color:#6C594D;
+  }
+  
+  .person9text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .person10 {
+    margin-top: 0px;
+  }
+  
+  .person10text {
+    margin-top:-30px;
+    text-align: center;
+    color:#67897B;
+  }
+  
+  .person10text:hover + .hide {
+    display: block;
+    color: red;
+  }
+  
+  .pawfootermeet {
+    opacity: 20%;
+    display: none;
+  }
+
+
+}
+
 
 
 
@@ -751,7 +1065,7 @@ margin-left: 30px;
 }
 
 .FormA2 input[type=text] {
-  width: 150px;
+  width: 120px;
   height: 50px;
   border-radius: 15px;
   border: none;
@@ -798,14 +1112,14 @@ margin-left: 30px;
       }
     
     .FormA4 input[type=text] {
-      width: 150px;
+      width: 120px;
       height: 50px;
       border-radius: 15px;
       border: none;
       font-size: 20px;
       text-align: left;
       padding-left: 15px;
-      margin-left: -50px;
+      margin-left: -25px;
       font-family: 'Roboto', sans-serif;
     }
     
@@ -843,6 +1157,8 @@ margin-left: 30px;
       .Submit2 a{
         color: #EF3E43;
         text-decoration: none;
+       align-content: center;
+       margin-right: -1000px;
       }
 
       .Submit2 a:hover {
@@ -877,8 +1193,216 @@ margin-left: 30px;
   transform: rotate(20deg);
 }
 
+{
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+ 
+  padding: 10px;
+  flex: 50%;
+}
+
 
 /* BECOME A SITTER MEDIA */
+@media (max-width: 600px) {
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+.headerbecome {
+  text-align: center;
+  font-size: 20px;
+  color: #6C594D;
+  margin-top: 45px;
+}
+
+.subbecome {
+  text-align: center;
+  font-size: 7px;
+  color: #6C594D;
+  opacity: 50%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.FormTitle {
+  text-align: center;
+  font-size: 19px;
+  color: #67897B;
+  margin-top: 5px;
+}
+
+.FormQuestions {
+float: left;
+display:flexbox;
+}
+
+.FormQ1 a{
+color: #A6BFA3;
+float: left;
+margin-top: 15px;
+align-items: center;
+margin-left: 30px;
+font-size: 15px;
+margin-left: -10px;
+margin-top: 20px;
+}
+
+.FormA1 input[type=text] {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.FormA1 {
+margin-left: 80px;
+}
+
+
+.FormQ2 a{
+  color: #A6BFA3;
+  float: left;
+  margin-top:0px;
+ margin-left: 0px;
+ font-size: 15px;
+}
+
+.FormA2 input[type=text] {
+        width: 100px;
+        height: 25px;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+}
+
+.FormA2 {
+  float: left;
+  margin: 7px;
+}
+
+.FormQ3 a{
+  color: #A6BFA3;
+  float: left;
+  margin-top: 15px;
+  float:left;
+  margin-left: 30px;
+  font-size: 15px;
+  }
+  
+  .FormA3 input[type=text] {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .FormA3 {
+    float: left;
+    margin: 7px;
+  }
+
+  .FormQ4 a{
+    color: #A6BFA3;
+    float: left;
+    margin-top: 15px;
+    margin-left: -0px;
+    font-size: 15px;
+      }
+    
+    .FormA4 input[type=text] {
+      width: 100px;
+      height: 25px;
+      border-radius: 5px;
+      border: none;
+      font-size: 20px;
+      text-align: left;
+      padding-left: 15px;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .FormA4 {
+      float: center;
+      margin: 7px;
+    }
+
+
+
+  .FormQ5 a{
+      color: #A6BFA3;
+      float: left;
+      margin-top: 15px;
+      margin-left: 30px;
+      font-size: 15px;
+      }
+      
+      .FormA5 input[type=text] {
+        width: 100px;
+        height: 25px;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        text-align: left;
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+      }
+      
+      .FormA5 {
+        float: left;
+        margin: 7px;
+        margin-left: 30px;
+      }
+
+      .Submit2 a{
+        color: #EF3E43;
+        text-decoration: none;
+      }
+
+      .Submit2 a:hover {
+        color: #A6BFA3;
+      }
+
+
+
+.PawBecome1 {
+ display: none;
+}
+
+.Form {
+  grid-area: Form;
+}
+
+.PawBecome2 {
+display: none;
+}
+
+
+}
 
 /* FormSubmit Page */
 .hide {
