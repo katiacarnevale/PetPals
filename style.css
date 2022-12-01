@@ -376,6 +376,17 @@ body {
   font-size: 25px;
 }
 
+.SubmitFind a{
+  color: #EF3E43;
+  text-decoration: none;
+  margin-left: -600px;
+  font-size: 35px;
+}
+
+.SubmitFind a:hover {
+  color: #A6BFA3;
+}
+
 /* FIND A SITTER MEDIA */
 
 /* MEET OUR SITTERS PAGE */
