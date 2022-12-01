@@ -1267,21 +1267,17 @@ margin-top: 20px;
   height: 25px;
   border-radius: 5px;
   border: none;
-  font-size: 20px;
+  font-size: 10px;
   text-align: left;
   padding-left: 15px;
   font-family: 'Roboto', sans-serif;
-}
-
-.FormA1 {
-margin-left: 80px;
 }
 
 
 .FormQ2 a{
   color: #A6BFA3;
   float: left;
-  margin-top:0px;
+  margin-top:20px;
  margin-left: 0px;
  font-size: 15px;
 }
@@ -1291,7 +1287,7 @@ margin-left: 80px;
         height: 25px;
         border-radius: 5px;
         border: none;
-        font-size: 20px;
+        font-size: 10px;
         text-align: left;
         padding-left: 15px;
         font-family: 'Roboto', sans-serif;
@@ -1307,19 +1303,20 @@ margin-left: 80px;
   float: left;
   margin-top: 15px;
   float:left;
-  margin-left: 30px;
+  margin-left: 0px;
   font-size: 15px;
   }
   
   .FormA3 input[type=text] {
-    width: 100px;
+    width: 80px;
     height: 25px;
     border-radius: 5px;
     border: none;
-    font-size: 20px;
+    font-size: 10px;
     text-align: left;
     padding-left: 15px;
     font-family: 'Roboto', sans-serif;
+ 
   }
   
   .FormA3 {
@@ -1340,10 +1337,11 @@ margin-left: 80px;
       height: 25px;
       border-radius: 5px;
       border: none;
-      font-size: 20px;
+      font-size: 10px;
       text-align: left;
       padding-left: 15px;
       font-family: 'Roboto', sans-serif;
+      margin-left: 10px;
     }
     
     .FormA4 {
@@ -1357,7 +1355,7 @@ margin-left: 80px;
       color: #A6BFA3;
       float: left;
       margin-top: 15px;
-      margin-left: 30px;
+      margin-left: -5px;
       font-size: 15px;
       }
       
@@ -1366,7 +1364,7 @@ margin-left: 80px;
         height: 25px;
         border-radius: 5px;
         border: none;
-        font-size: 20px;
+        font-size: 10px;
         text-align: left;
         padding-left: 15px;
         font-family: 'Roboto', sans-serif;
@@ -1378,9 +1376,8 @@ margin-left: 80px;
         margin-left: 30px;
       }
 
-      .Submit2 a{
-        color: #EF3E43;
-        text-decoration: none;
+      .Submit2 {
+     margin-left: -375px;
       }
 
       .Submit2 a:hover {
