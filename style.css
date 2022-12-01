@@ -144,19 +144,16 @@ body {
 
 
 /* LANDING PAGE MEDIA */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
-  .dropdown {
-    display: contents;
-  }
 
-  .navbar a {
-
+  .navbar a{
     padding: 0px;
     color: #A98467;
     text-decoration: none;
     font-size: 10px;
     margin-top: 0px;
+    overflow: stack;
   }
 
 
@@ -178,10 +175,7 @@ body {
 
   .PetPeople,
   h1 {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 40px;
   }
 
   .FindSitter a:hover {
@@ -240,6 +234,7 @@ body {
 .paw1 {
   transform: rotate(7deg);
   margin-left: 110px;
+  width: 150;
 }
 
 .Q1 h2{
@@ -385,6 +380,108 @@ body {
 }
 
 /* FIND A SITTER MEDIA */
+@media (max-width: 600px) {
+
+  .LetsFind h1{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    
+  }
+  
+  .paw1 {
+  margin-left: 25px;
+
+  }
+  
+  .Q1 h2{
+    font-size: 20px;
+    color: #A6BFA3;
+  }
+  
+  
+  .Q1 p{
+    font-size: 8px;
+    color: #000000;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+  }
+  
+  .Answer1 input[type=text] {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  
+  
+  .Paw2 {
+    margin-left: 25px;
+  }
+  
+  .Q2 h2{
+    font-size: 20px;
+    color: #A6BFA3;
+  }
+  
+  .Q2 p{
+    font-size: 8px;
+    color: #000000;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+  }
+  
+  .Answer2 input[type=text] {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  
+  
+  .Paw3 {
+    margin-left: 25px;
+  }
+  
+  .Q3 h2{
+    font-size: 20px;
+    color: #A6BFA3;
+  }
+  
+  .Q3 p {
+    font-size: 8px;
+    color: #000000;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+  }
+  
+  .Answer3 input[type=text] {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    padding-left: 15px;
+  }
+
+  .SubmitFind a {
+    font-size: 20px;
+  }
+
+  .newpic {
+  display: none;
+  }
+
+}
 
 /* MEET OUR SITTERS PAGE */
 
