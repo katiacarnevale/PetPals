@@ -126,9 +126,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.footertext1 h1:hover{
-  color: #67897B;
-}
 
 .footertext1 p{
   color: #A6BFA3;
@@ -401,6 +398,144 @@ body {
 }
 
 
+.person1text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.hide {
+  display: none;
+  text-align: center;
+}
+
+.person1text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person2text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person2text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person3text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person3text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person4text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person4text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person5text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person5text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person6 {
+  margin-top: 0px;
+}
+
+.person6text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person6text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person7 {
+  margin-top: 0px;
+}
+
+.person7text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person7text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person8 {
+  margin-top: 0px;
+}
+
+.person8text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person8text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person9 {
+  margin-top: 0px;
+}
+
+.person9text {
+  margin-top:-30px;
+  text-align: center;
+  color:#6C594D;
+}
+
+.person9text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.person10 {
+  margin-top: 0px;
+}
+
+.person10text {
+  margin-top:-30px;
+  text-align: center;
+  color:#67897B;
+}
+
+.person10text:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.pawfootermeet {
+  opacity: 20%;
+}
 
 /* MEET OUR SITTERS MEDIA */
 
