@@ -687,7 +687,7 @@ body {
   grid-area: person10; 
 }
 
-/* MEET OUR SITTERS MEDIA*/
+
 .MeetSittersTitle a{
   color:#6C594D;
   font-size: 30px;
@@ -837,10 +837,33 @@ body {
   opacity: 20%;
 }
 
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+ 
+  padding: 10px;
+  flex: 50%;
+}
+
 /* MEET OUR SITTERS MEDIA */
 
 @media (max-width: 600px) {
 
+  .flex-container {
+    flex-direction: column;
+  }
   .MeetSittersTitle a{
     color:#6C594D;
     font-size: 20px;
@@ -1193,9 +1216,6 @@ margin-left: 30px;
   transform: rotate(20deg);
 }
 
-{
-  box-sizing: border-box;
-}
 
 .flex-container {
   display: flex;
@@ -1355,7 +1375,7 @@ margin-top: 20px;
       color: #A6BFA3;
       float: left;
       margin-top: 15px;
-      margin-left: -5px;
+      margin-left: 5px;
       font-size: 15px;
       }
       
