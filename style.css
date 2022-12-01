@@ -861,6 +861,11 @@ body {
 
 @media (max-width: 600px) {
 
+  .MeetOurSitters{
+grid-column: 1/5;
+overflow: hidden;
+
+  }
   .flex-container {
     flex-direction: column;
   }
